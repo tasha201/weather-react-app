@@ -1,3 +1,4 @@
+import "./App.css";
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -32,8 +33,6 @@ export default function Weather() {
 
   let form = (
     <div className="form">
-      <h1>Weather app</h1>
-
       <form onSubmit={handleSubmit}>
         <input
           type="search"
