@@ -49,3 +49,11 @@ button {
 strong {
   color: lightcoral;
 }
+
+a {
+  color: lightcoral;
+}
+
+.link {
+  margin-top: 50px;
+}
